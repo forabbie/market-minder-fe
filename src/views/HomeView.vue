@@ -1,9 +1,9 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
   <main>
-    <TheWelcome />
+    <TheDashboard />
   </main>
 </template>
+
+<script setup>
+import TheDashboard from '../components/TheDashboard.vue'
+</script>

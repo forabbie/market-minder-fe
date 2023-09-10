@@ -84,3 +84,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* custom */
+
+.main-grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.text-justify {
+  text-align: justify;
+}
